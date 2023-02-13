@@ -32,9 +32,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency> <groupId>br.com.caelum.stella</groupId>
+			<artifactId>caelum-stella-core</artifactId>
+			<version>2.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.9</version>
+		</dependency>
 	</dependencies>
 
 	<build>
+		<finalName>api-validador-cpf-1.0</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
