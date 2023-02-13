@@ -44,6 +44,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>api-validador-cpf-1.0</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
