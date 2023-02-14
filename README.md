@@ -6,6 +6,8 @@ Projeto em Spring que contém uma API para validação do CPF.
 - Swagger;
 - Docker;
 
+Link Swagger: http://host:port/swagger-ui/index.htm
+
 ### 2) API Rest
 
 Endereço: http://host:port/users/{cpf}
